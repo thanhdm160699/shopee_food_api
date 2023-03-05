@@ -7,6 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shopee_food_api.settings')
+    print("test")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
